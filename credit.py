@@ -7,6 +7,7 @@ from streamlit_option_menu import option_menu
 import numpy as np
 
 
+
 # loading the saved models
 
 credit_model = pickle.load(open('credit_model.sav', 'rb'))
